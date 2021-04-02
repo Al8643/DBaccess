@@ -91,7 +91,6 @@ Correct.True
 
 Q9: Which of the following statement(s) about Python is NOT correct (i.e. False)?
 
-
 The Python ecosystem is very rich and provides easy to use tools for data science. 
 Due to its proprietary nature, database access from Python is not available for many databases.
 There are libraries and APIs available to access many of the popular databases from Python. 
