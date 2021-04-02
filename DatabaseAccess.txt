@@ -1,0 +1,110 @@
+Q1: Which API do you use to connect to a database from Python?
+
+Watson API
+REST API
+Census API
+DB API such as ibm_db API
+
+Correct. DB API such as ibm_db API
+A DB API such as ibm_db will enable you to connect to a database from Python to access and 
+manipulate data.
+
+Q2: In the ibm_db API, what is the commit() method used for?
+
+The commit() method is used to close a database connection.
+The commit() method is used to commit any pending transaction to the database.
+The commit() method is used to reverse any transactions that fail.
+The commit() method is used to open a database for connection.
+
+Correct. The commit() method is used to commit any pending transaction to the database.
+
+Q3: True or false: Resources used by the ibm_db API are released automatically when the program ends. 
+There is no need to specifically close the connection.
+
+True
+False
+
+Correct. False
+It is important to use the close() method to close connections and avoid unused connections 
+taking up resources.
+
+Q4: To create a table from Python, you would use...
+
+An ibm_db.exec_immediate function that includes connection information and a SQL statement to create the table.
+You cannot create a table from Python.
+An ibm_db.exec_immediate function that includes connection information.
+An ibm_db.exec_immediate function that includes a SQL statement to create the table.
+
+
+Correct. An ibm_db.exec_immediate function that includes connection information and a SQL statement to create the table.
+To create a table from Python, use the ibm_db.exec_immediate function and include connection information as the first parameter and a SQL statement to create the table as the second parameter.
+
+Q5: Which of the following is a correct example of the connect function?
+
+connect('database port', 'username', 'password')
+connect('username', 'password')
+connect('database name', 'username', 'database type')
+connect('database name', 'username', 'password')
+
+Correct. connect('database name', 'username', 'password').
+You must pass the database name, username, and password parameters to connect to the database.
+
+A database cursor is a control structure that enables traversal over the records in a database
+
+The ibm_db API provides a variety of  useful Python functions for accessing and  manipulating data 
+in an IBM data server database,  including functions for connecting to a database,  preparing and 
+issuing SQL statements,  fetching rows from result sets, calling stored procedures,  committing 
+and rolling back transactions,  handling errors and retrieving metadata. 
+
+The Python ecosystem is very rich and provides easy to use tools for data science.  
+Some of the most popular packages are NumPy,  pandas, matplotlib, and SciPy.  
+Python is easy to learn and has a simple syntax.  Due to its open source nature,  
+Python has been ported to many platforms.  All your python programs can work on any 
+of  these platforms without requiring any changes at all.  If you are careful and 
+avoid any system dependent features,  Python supports relational database systems.  
+Writing Python code to access databases is made  easier by the presence of the Python database API.
+
+
+Q6:A database cursor is a control structure that enables traversal over the records in a database. (T/F)
+
+True
+False
+
+Correct.True
+
+Q7: The ibm_db API provides a variety of useful Python functions for accessing and manipulating data in 
+an IBM data server like Db2. Is this statement True or False?
+
+True
+False
+
+Correct.True
+
+Q8: A Dataframe represents a tabular, spreadsheet-like data structure containing an ordered collection of 
+columns, each of which can be a different value type. Indicate whether the following statement is True or False:
+A pandas dataframe in Python can be used for storing the result set of a SQL query.
+
+True
+False
+
+Correct.True
+
+Q9: Which of the following statement(s) about Python is NOT correct (i.e. False)?
+
+
+The Python ecosystem is very rich and provides easy to use tools for data science. 
+Due to its proprietary nature, database access from Python is not available for many databases.
+There are libraries and APIs available to access many of the popular databases from Python. 
+Python is a popular scripting language for connecting and accessing databases.
+
+Correct. Due to its proprietary nature, database access from Python is not available for many databases.
+
+Q10: To query data from tables in database a connection to the database needs to be established. 
+Which of the following is NOT required to establish a connection with a relational database from 
+a Python notebook:
+
+An SQL or Database API 
+Username, Password, and Database name
+Table and Column names
+
+Correct. Table and Column names
